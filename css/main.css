@@ -1,0 +1,311 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: rgb(163, 128, 12);
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    color: rgb(163, 128, 12);
+    margin-bottom: 0;
+}
+
+.mainheader {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 99999999;
+}
+
+.marquee {
+    float: left;
+    padding-left: 300px;
+}
+
+.navlist {
+    list-style-type: none;
+}
+
+nav {
+    position: absolute;
+    left: 900px;
+    padding: 20px;
+}
+
+a {
+    color: rgb(163, 128, 12);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.navliele {
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.lefttop {
+    top: 200px;
+    left: 100px;
+    height: 145px;
+    width: 350px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.boxtext {
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 10px;
+}
+
+.boxtext2 {
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    text-indent: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3;
+}
+
+.leftbottom {
+    top: 380px;
+    left: 100px;
+    height: 350px;
+    width: 350px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.middle {
+    top: 230px;
+    left: 550px;
+    height: 450px;
+    width: 500px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.right {
+    top: 230px;
+    left: 1100px;
+    height: 450px;
+    width: 500px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.tinytitle {
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+    color: rgb(163, 128, 12);
+    margin-top: 0;
+}
+
+.content {
+    z-index: -1;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxlist {
+    list-style-type: circle;
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    margin-top: 3;
+    text-indent: 5px;
+}
+
+.fun {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+footer {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+    z-index: 99999999;
+}
+
+.footertitle {
+    float: left;
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(163, 128, 12);
+    margin-top: 6px;
+}
+
+.footertext {
+    position: absolute;
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(163, 128, 12);
+    margin-top: 0;
+    left: 180px;
+    width: 200px;
+}
+
+.footermarquee {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.copyright {
+    position: absolute;
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: rgb(163, 128, 12);
+    margin-top: 8;
+    right: 10px;
+}
+
+.email {
+    position: absolute;
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: rgb(163, 128, 12);
+    margin-top: 10;
+    right: 120px;
+    bottom: 21px;
+}
+
+.aboutheader {
+    position: absolute;
+    color: black;
+    top: 0;
+    margin-left: 20px;
+}
+
+.aboutimg {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.aboutbox {
+    top: 180px;
+    left: 550px;
+    height: 200px;
+    width: 600px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.aboutboxheader {
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 10px;
+}
+
+.aboutboxtext {
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    text-indent: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.aboutimg2 {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+
+.aboutbox2 {
+    top: 480px;
+    left: 550px;
+    height: 220px;
+    width: 600px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
+
+.aboutimg3 {
+    position: absolute;
+    top: 750px;
+    left: 200px;
+    padding-bottom: 60px;
+}
+
+.aboutbox3 {
+    top: 780px;
+    left: 550px;
+    height: 200px;
+    width: 600px;
+    background-color: linen;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5000;
+    box-shadow: 32px 32px 80px 1px #333;
+}
